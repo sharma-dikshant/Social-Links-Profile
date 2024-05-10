@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 20%);
+    --dark-grey: hsl(0, 0%, 12%);
+    --off-black: hsl(0, 0%, 8%);
+    --green: hsl(75, 94%, 57%);
+}
+
+body {
+    font-size: 14px;
+    background-color: var(--off-black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.card {
+    background-color: var(--dark-grey);
+    border-radius: 10px;
+    padding: 2.5em;
+    min-width: 25em;
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    padding: 0.5em;
+}
+
+.profile-details img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 1.5rem;
+    padding: 0.5em;
+}
+
+.address {
+    color: var(--green);
+}
+
+.about {
+    padding: 1em;
+
+}
+
+.social-media {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media ul {
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+
+.social-media button {
+    background-color: var(--grey);
+    font-size: 0.9rem;
+    color: var(--white);
+    font-weight: 600;
+    width: 100%;
+    padding: 1em;
+    margin-top: 1em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.social-media button cursor{
+    color: var(--off-black);
+}
+
+.social-media button:hover {
+
+    background-color: var(--green);
+    color: var(--grey);
+    transform: scale(1.05);
+}
+
+.social-media button:active {
+    transform: scale(1.05);
+    background-color: var(--green);
+    color: var(--grey);
+}
+
+.attribution{
+    padding: 1em;
+    color: var(--white);
+}
+
+.attribution a{
+    text-decoration: none;
+    color: var(--green);
+    font-size: 0.8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
